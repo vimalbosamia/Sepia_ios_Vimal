@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31B95600DFC0653DFAC429AF /* Pods_Sepia_iOS_Vimal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8A7ACEBBF9D68E36F26AFF /* Pods_Sepia_iOS_Vimal.framework */; };
+		6D3D2FFAE75D24667AF84092 /* Pods_Sepia_iOS_Vimal_Sepia_iOS_VimalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852061EFAC8039C8A880AC62 /* Pods_Sepia_iOS_Vimal_Sepia_iOS_VimalUITests.framework */; };
 		9426EAEA2922D8C300CBB087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EAE92922D8C300CBB087 /* AppDelegate.swift */; };
 		9426EAEC2922D8C300CBB087 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EAEB2922D8C300CBB087 /* SceneDelegate.swift */; };
 		9426EAEE2922D8C300CBB087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EAED2922D8C300CBB087 /* ViewController.swift */; };
@@ -17,6 +19,7 @@
 		9426EB0B2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB0A2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift */; };
 		9426EB0D2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB0C2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift */; };
 		9426EB202922E7F600CBB087 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB1F2922E7F600CBB087 /* PetModel.swift */; };
+		C784A55D5BFAB4F4086C4A20 /* Pods_Sepia_iOS_VimalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B337D07990CFFBA769C4A877 /* Pods_Sepia_iOS_VimalTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0300088FA8BDE0477EAE4DA9 /* Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25C44CF4336D185DB7910E1C /* Pods-Sepia_iOS_Vimal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sepia_iOS_Vimal.release.xcconfig"; path = "Target Support Files/Pods-Sepia_iOS_Vimal/Pods-Sepia_iOS_Vimal.release.xcconfig"; sourceTree = "<group>"; };
+		740DA45A9A113E70A1A5D58E /* Pods-Sepia_iOS_VimalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sepia_iOS_VimalTests.debug.xcconfig"; path = "Target Support Files/Pods-Sepia_iOS_VimalTests/Pods-Sepia_iOS_VimalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8190EFAA4A2DAF03220FE548 /* Pods-Sepia_iOS_VimalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sepia_iOS_VimalTests.release.xcconfig"; path = "Target Support Files/Pods-Sepia_iOS_VimalTests/Pods-Sepia_iOS_VimalTests.release.xcconfig"; sourceTree = "<group>"; };
+		852061EFAC8039C8A880AC62 /* Pods_Sepia_iOS_Vimal_Sepia_iOS_VimalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sepia_iOS_Vimal_Sepia_iOS_VimalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9426EAE62922D8C300CBB087 /* Sepia_iOS_Vimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sepia_iOS_Vimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9426EAE92922D8C300CBB087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9426EAEB2922D8C300CBB087 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		9426EB0A2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_iOS_VimalUITests.swift; sourceTree = "<group>"; };
 		9426EB0C2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_iOS_VimalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9426EB1F2922E7F600CBB087 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		B337D07990CFFBA769C4A877 /* Pods_Sepia_iOS_VimalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sepia_iOS_VimalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8A7ACEBBF9D68E36F26AFF /* Pods_Sepia_iOS_Vimal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sepia_iOS_Vimal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C6798E5A04AE9822378BF1 /* Pods-Sepia_iOS_Vimal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sepia_iOS_Vimal.debug.xcconfig"; path = "Target Support Files/Pods-Sepia_iOS_Vimal/Pods-Sepia_iOS_Vimal.debug.xcconfig"; sourceTree = "<group>"; };
+		F9877E74F07334BD728EF1D3 /* Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.release.xcconfig"; path = "Target Support Files/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B95600DFC0653DFAC429AF /* Pods_Sepia_iOS_Vimal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C784A55D5BFAB4F4086C4A20 /* Pods_Sepia_iOS_VimalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3D2FFAE75D24667AF84092 /* Pods_Sepia_iOS_Vimal_Sepia_iOS_VimalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C05032B79980F3E290E7AC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A7ACEBBF9D68E36F26AFF /* Pods_Sepia_iOS_Vimal.framework */,
+				852061EFAC8039C8A880AC62 /* Pods_Sepia_iOS_Vimal_Sepia_iOS_VimalUITests.framework */,
+				B337D07990CFFBA769C4A877 /* Pods_Sepia_iOS_VimalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9426EADD2922D8C300CBB087 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				9426EAFF2922D8C700CBB087 /* Sepia_iOS_VimalTests */,
 				9426EB092922D8C700CBB087 /* Sepia_iOS_VimalUITests */,
 				9426EAE72922D8C300CBB087 /* Products */,
+				CF21BDC0D4C0F4DFA94FCCC5 /* Pods */,
+				0C05032B79980F3E290E7AC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +189,20 @@
 			path = JSONFile;
 			sourceTree = "<group>";
 		};
+		CF21BDC0D4C0F4DFA94FCCC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6C6798E5A04AE9822378BF1 /* Pods-Sepia_iOS_Vimal.debug.xcconfig */,
+				25C44CF4336D185DB7910E1C /* Pods-Sepia_iOS_Vimal.release.xcconfig */,
+				0300088FA8BDE0477EAE4DA9 /* Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.debug.xcconfig */,
+				F9877E74F07334BD728EF1D3 /* Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.release.xcconfig */,
+				740DA45A9A113E70A1A5D58E /* Pods-Sepia_iOS_VimalTests.debug.xcconfig */,
+				8190EFAA4A2DAF03220FE548 /* Pods-Sepia_iOS_VimalTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9426EB102922D8C700CBB087 /* Build configuration list for PBXNativeTarget "Sepia_iOS_Vimal" */;
 			buildPhases = (
+				DB313852A5776F02048EA816 /* [CP] Check Pods Manifest.lock */,
 				9426EAE22922D8C300CBB087 /* Sources */,
 				9426EAE32922D8C300CBB087 /* Frameworks */,
 				9426EAE42922D8C300CBB087 /* Resources */,
+				E87174F39FADB08221C139B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9426EB132922D8C700CBB087 /* Build configuration list for PBXNativeTarget "Sepia_iOS_VimalTests" */;
 			buildPhases = (
+				CD378926D4683DD61BBC1EAD /* [CP] Check Pods Manifest.lock */,
 				9426EAF82922D8C700CBB087 /* Sources */,
 				9426EAF92922D8C700CBB087 /* Frameworks */,
 				9426EAFA2922D8C700CBB087 /* Resources */,
@@ -204,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9426EB162922D8C700CBB087 /* Build configuration list for PBXNativeTarget "Sepia_iOS_VimalUITests" */;
 			buildPhases = (
+				1A85F0BA6838952B600DEFC2 /* [CP] Check Pods Manifest.lock */,
 				9426EB022922D8C700CBB087 /* Sources */,
 				9426EB032922D8C700CBB087 /* Frameworks */,
 				9426EB042922D8C700CBB087 /* Resources */,
+				4802D585F29A95FA4D4760B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,6 +333,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A85F0BA6838952B600DEFC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4802D585F29A95FA4D4760B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests/Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD378926D4683DD61BBC1EAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sepia_iOS_VimalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB313852A5776F02048EA816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sepia_iOS_Vimal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87174F39FADB08221C139B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sepia_iOS_Vimal/Pods-Sepia_iOS_Vimal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sepia_iOS_Vimal/Pods-Sepia_iOS_Vimal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sepia_iOS_Vimal/Pods-Sepia_iOS_Vimal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9426EAE22922D8C300CBB087 /* Sources */ = {
@@ -468,6 +617,7 @@
 		};
 		9426EB112922D8C700CBB087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C6798E5A04AE9822378BF1 /* Pods-Sepia_iOS_Vimal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -495,6 +645,7 @@
 		};
 		9426EB122922D8C700CBB087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C44CF4336D185DB7910E1C /* Pods-Sepia_iOS_Vimal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -522,6 +673,7 @@
 		};
 		9426EB142922D8C700CBB087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740DA45A9A113E70A1A5D58E /* Pods-Sepia_iOS_VimalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +693,7 @@
 		};
 		9426EB152922D8C700CBB087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8190EFAA4A2DAF03220FE548 /* Pods-Sepia_iOS_VimalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,6 +713,7 @@
 		};
 		9426EB172922D8C700CBB087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0300088FA8BDE0477EAE4DA9 /* Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -577,6 +731,7 @@
 		};
 		9426EB182922D8C700CBB087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9877E74F07334BD728EF1D3 /* Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
