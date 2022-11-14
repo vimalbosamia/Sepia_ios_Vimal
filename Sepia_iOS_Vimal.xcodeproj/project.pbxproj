@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9426EAEA2922D8C300CBB087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EAE92922D8C300CBB087 /* AppDelegate.swift */; };
+		9426EAEC2922D8C300CBB087 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EAEB2922D8C300CBB087 /* SceneDelegate.swift */; };
+		9426EAEE2922D8C300CBB087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EAED2922D8C300CBB087 /* ViewController.swift */; };
+		9426EAF12922D8C300CBB087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9426EAEF2922D8C300CBB087 /* Main.storyboard */; };
+		9426EAF32922D8C600CBB087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9426EAF22922D8C600CBB087 /* Assets.xcassets */; };
+		9426EAF62922D8C600CBB087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9426EAF42922D8C600CBB087 /* LaunchScreen.storyboard */; };
+		9426EB012922D8C700CBB087 /* Sepia_iOS_VimalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB002922D8C700CBB087 /* Sepia_iOS_VimalTests.swift */; };
+		9426EB0B2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB0A2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift */; };
+		9426EB0D2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB0C2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9426EAFD2922D8C700CBB087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9426EADE2922D8C300CBB087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9426EAE52922D8C300CBB087;
+			remoteInfo = Sepia_iOS_Vimal;
+		};
+		9426EB072922D8C700CBB087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9426EADE2922D8C300CBB087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9426EAE52922D8C300CBB087;
+			remoteInfo = Sepia_iOS_Vimal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9426EAE62922D8C300CBB087 /* Sepia_iOS_Vimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sepia_iOS_Vimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9426EAE92922D8C300CBB087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9426EAEB2922D8C300CBB087 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9426EAED2922D8C300CBB087 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9426EAF02922D8C300CBB087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9426EAF22922D8C600CBB087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9426EAF52922D8C600CBB087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9426EAF72922D8C600CBB087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9426EAFC2922D8C700CBB087 /* Sepia_iOS_VimalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sepia_iOS_VimalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9426EB002922D8C700CBB087 /* Sepia_iOS_VimalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_iOS_VimalTests.swift; sourceTree = "<group>"; };
+		9426EB062922D8C700CBB087 /* Sepia_iOS_VimalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sepia_iOS_VimalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9426EB0A2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_iOS_VimalUITests.swift; sourceTree = "<group>"; };
+		9426EB0C2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_iOS_VimalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9426EAE32922D8C300CBB087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9426EAF92922D8C700CBB087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9426EB032922D8C700CBB087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9426EADD2922D8C300CBB087 = {
+			isa = PBXGroup;
+			children = (
+				9426EAE82922D8C300CBB087 /* Sepia_iOS_Vimal */,
+				9426EAFF2922D8C700CBB087 /* Sepia_iOS_VimalTests */,
+				9426EB092922D8C700CBB087 /* Sepia_iOS_VimalUITests */,
+				9426EAE72922D8C300CBB087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9426EAE72922D8C300CBB087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9426EAE62922D8C300CBB087 /* Sepia_iOS_Vimal.app */,
+				9426EAFC2922D8C700CBB087 /* Sepia_iOS_VimalTests.xctest */,
+				9426EB062922D8C700CBB087 /* Sepia_iOS_VimalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9426EAE82922D8C300CBB087 /* Sepia_iOS_Vimal */ = {
+			isa = PBXGroup;
+			children = (
+				9426EAE92922D8C300CBB087 /* AppDelegate.swift */,
+				9426EAEB2922D8C300CBB087 /* SceneDelegate.swift */,
+				9426EAED2922D8C300CBB087 /* ViewController.swift */,
+				9426EAEF2922D8C300CBB087 /* Main.storyboard */,
+				9426EAF22922D8C600CBB087 /* Assets.xcassets */,
+				9426EAF42922D8C600CBB087 /* LaunchScreen.storyboard */,
+				9426EAF72922D8C600CBB087 /* Info.plist */,
+			);
+			path = Sepia_iOS_Vimal;
+			sourceTree = "<group>";
+		};
+		9426EAFF2922D8C700CBB087 /* Sepia_iOS_VimalTests */ = {
+			isa = PBXGroup;
+			children = (
+				9426EB002922D8C700CBB087 /* Sepia_iOS_VimalTests.swift */,
+			);
+			path = Sepia_iOS_VimalTests;
+			sourceTree = "<group>";
+		};
+		9426EB092922D8C700CBB087 /* Sepia_iOS_VimalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9426EB0A2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift */,
+				9426EB0C2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift */,
+			);
+			path = Sepia_iOS_VimalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9426EAE52922D8C300CBB087 /* Sepia_iOS_Vimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9426EB102922D8C700CBB087 /* Build configuration list for PBXNativeTarget "Sepia_iOS_Vimal" */;
+			buildPhases = (
+				9426EAE22922D8C300CBB087 /* Sources */,
+				9426EAE32922D8C300CBB087 /* Frameworks */,
+				9426EAE42922D8C300CBB087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sepia_iOS_Vimal;
+			productName = Sepia_iOS_Vimal;
+			productReference = 9426EAE62922D8C300CBB087 /* Sepia_iOS_Vimal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9426EAFB2922D8C700CBB087 /* Sepia_iOS_VimalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9426EB132922D8C700CBB087 /* Build configuration list for PBXNativeTarget "Sepia_iOS_VimalTests" */;
+			buildPhases = (
+				9426EAF82922D8C700CBB087 /* Sources */,
+				9426EAF92922D8C700CBB087 /* Frameworks */,
+				9426EAFA2922D8C700CBB087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9426EAFE2922D8C700CBB087 /* PBXTargetDependency */,
+			);
+			name = Sepia_iOS_VimalTests;
+			productName = Sepia_iOS_VimalTests;
+			productReference = 9426EAFC2922D8C700CBB087 /* Sepia_iOS_VimalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9426EB052922D8C700CBB087 /* Sepia_iOS_VimalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9426EB162922D8C700CBB087 /* Build configuration list for PBXNativeTarget "Sepia_iOS_VimalUITests" */;
+			buildPhases = (
+				9426EB022922D8C700CBB087 /* Sources */,
+				9426EB032922D8C700CBB087 /* Frameworks */,
+				9426EB042922D8C700CBB087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9426EB082922D8C700CBB087 /* PBXTargetDependency */,
+			);
+			name = Sepia_iOS_VimalUITests;
+			productName = Sepia_iOS_VimalUITests;
+			productReference = 9426EB062922D8C700CBB087 /* Sepia_iOS_VimalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9426EADE2922D8C300CBB087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9426EAE52922D8C300CBB087 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9426EAFB2922D8C700CBB087 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9426EAE52922D8C300CBB087;
+					};
+					9426EB052922D8C700CBB087 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9426EAE52922D8C300CBB087;
+					};
+				};
+			};
+			buildConfigurationList = 9426EAE12922D8C300CBB087 /* Build configuration list for PBXProject "Sepia_iOS_Vimal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9426EADD2922D8C300CBB087;
+			productRefGroup = 9426EAE72922D8C300CBB087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9426EAE52922D8C300CBB087 /* Sepia_iOS_Vimal */,
+				9426EAFB2922D8C700CBB087 /* Sepia_iOS_VimalTests */,
+				9426EB052922D8C700CBB087 /* Sepia_iOS_VimalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9426EAE42922D8C300CBB087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9426EAF62922D8C600CBB087 /* LaunchScreen.storyboard in Resources */,
+				9426EAF32922D8C600CBB087 /* Assets.xcassets in Resources */,
+				9426EAF12922D8C300CBB087 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9426EAFA2922D8C700CBB087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9426EB042922D8C700CBB087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9426EAE22922D8C300CBB087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9426EAEE2922D8C300CBB087 /* ViewController.swift in Sources */,
+				9426EAEA2922D8C300CBB087 /* AppDelegate.swift in Sources */,
+				9426EAEC2922D8C300CBB087 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9426EAF82922D8C700CBB087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9426EB012922D8C700CBB087 /* Sepia_iOS_VimalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9426EB022922D8C700CBB087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9426EB0B2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift in Sources */,
+				9426EB0D2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9426EAFE2922D8C700CBB087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9426EAE52922D8C300CBB087 /* Sepia_iOS_Vimal */;
+			targetProxy = 9426EAFD2922D8C700CBB087 /* PBXContainerItemProxy */;
+		};
+		9426EB082922D8C700CBB087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9426EAE52922D8C300CBB087 /* Sepia_iOS_Vimal */;
+			targetProxy = 9426EB072922D8C700CBB087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9426EAEF2922D8C300CBB087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9426EAF02922D8C300CBB087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9426EAF42922D8C600CBB087 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9426EAF52922D8C600CBB087 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9426EB0E2922D8C700CBB087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9426EB0F2922D8C700CBB087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9426EB112922D8C700CBB087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sepia_iOS_Vimal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sepia-iOS-Vimal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9426EB122922D8C700CBB087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sepia_iOS_Vimal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sepia-iOS-Vimal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9426EB142922D8C700CBB087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sepia-iOS-VimalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sepia_iOS_Vimal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sepia_iOS_Vimal";
+			};
+			name = Debug;
+		};
+		9426EB152922D8C700CBB087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sepia-iOS-VimalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sepia_iOS_Vimal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sepia_iOS_Vimal";
+			};
+			name = Release;
+		};
+		9426EB172922D8C700CBB087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sepia-iOS-VimalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sepia_iOS_Vimal;
+			};
+			name = Debug;
+		};
+		9426EB182922D8C700CBB087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sepia-iOS-VimalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sepia_iOS_Vimal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9426EAE12922D8C300CBB087 /* Build configuration list for PBXProject "Sepia_iOS_Vimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9426EB0E2922D8C700CBB087 /* Debug */,
+				9426EB0F2922D8C700CBB087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9426EB102922D8C700CBB087 /* Build configuration list for PBXNativeTarget "Sepia_iOS_Vimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9426EB112922D8C700CBB087 /* Debug */,
+				9426EB122922D8C700CBB087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9426EB132922D8C700CBB087 /* Build configuration list for PBXNativeTarget "Sepia_iOS_VimalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9426EB142922D8C700CBB087 /* Debug */,
+				9426EB152922D8C700CBB087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9426EB162922D8C700CBB087 /* Build configuration list for PBXNativeTarget "Sepia_iOS_VimalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9426EB172922D8C700CBB087 /* Debug */,
+				9426EB182922D8C700CBB087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9426EADE2922D8C300CBB087 /* Project object */;
+}
