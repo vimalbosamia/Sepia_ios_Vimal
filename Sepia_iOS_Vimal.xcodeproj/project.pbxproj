@@ -16,6 +16,7 @@
 		9426EB012922D8C700CBB087 /* Sepia_iOS_VimalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB002922D8C700CBB087 /* Sepia_iOS_VimalTests.swift */; };
 		9426EB0B2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB0A2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift */; };
 		9426EB0D2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB0C2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift */; };
+		9426EB202922E7F600CBB087 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB1F2922E7F600CBB087 /* PetModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9426EB062922D8C700CBB087 /* Sepia_iOS_VimalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sepia_iOS_VimalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9426EB0A2922D8C700CBB087 /* Sepia_iOS_VimalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_iOS_VimalUITests.swift; sourceTree = "<group>"; };
 		9426EB0C2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_iOS_VimalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9426EB1F2922E7F600CBB087 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,10 @@
 		9426EAE82922D8C300CBB087 /* Sepia_iOS_Vimal */ = {
 			isa = PBXGroup;
 			children = (
-				9426EAE92922D8C300CBB087 /* AppDelegate.swift */,
-				9426EAEB2922D8C300CBB087 /* SceneDelegate.swift */,
+				9426EB1C2922E7BD00CBB087 /* JSONFile */,
+				9426EB1B2922E7B200CBB087 /* Model */,
+				9426EB1A2922E7A300CBB087 /* ViewController */,
+				9426EB192922E78D00CBB087 /* Delegate */,
 				9426EAED2922D8C300CBB087 /* ViewController.swift */,
 				9426EAEF2922D8C300CBB087 /* Main.storyboard */,
 				9426EAF22922D8C600CBB087 /* Assets.xcassets */,
@@ -125,6 +129,37 @@
 				9426EB0C2922D8C700CBB087 /* Sepia_iOS_VimalUITestsLaunchTests.swift */,
 			);
 			path = Sepia_iOS_VimalUITests;
+			sourceTree = "<group>";
+		};
+		9426EB192922E78D00CBB087 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9426EAE92922D8C300CBB087 /* AppDelegate.swift */,
+				9426EAEB2922D8C300CBB087 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		9426EB1A2922E7A300CBB087 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9426EB1B2922E7B200CBB087 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9426EB1F2922E7F600CBB087 /* PetModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9426EB1C2922E7BD00CBB087 /* JSONFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSONFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +296,7 @@
 				9426EAEE2922D8C300CBB087 /* ViewController.swift in Sources */,
 				9426EAEA2922D8C300CBB087 /* AppDelegate.swift in Sources */,
 				9426EAEC2922D8C300CBB087 /* SceneDelegate.swift in Sources */,
+				9426EB202922E7F600CBB087 /* PetModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
