@@ -43,6 +43,40 @@
             </objects>
             <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
         </scene>
+        <!--Pet DetailVC-->
+        <scene sceneID="YW9-jG-nGC">
+            <objects>
+                <viewController storyboardIdentifier="PetDetailVC" id="nhl-K4-SPF" customClass="PetDetailVC" customModule="Sepia_iOS_Vimal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6aN-B9-QwG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ifh-Ki-KUr">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MBI-Vu-d6N"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MBI-Vu-d6N" firstAttribute="trailing" secondItem="ifh-Ki-KUr" secondAttribute="trailing" id="Efb-qZ-TVV"/>
+                            <constraint firstItem="ifh-Ki-KUr" firstAttribute="top" secondItem="MBI-Vu-d6N" secondAttribute="top" id="Iia-lx-Clf"/>
+                            <constraint firstItem="MBI-Vu-d6N" firstAttribute="bottom" secondItem="ifh-Ki-KUr" secondAttribute="bottom" id="S0v-bd-dAZ"/>
+                            <constraint firstItem="ifh-Ki-KUr" firstAttribute="leading" secondItem="MBI-Vu-d6N" secondAttribute="leading" id="Wxk-kp-gRw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="ifh-Ki-KUr" id="XRK-ZA-Dzm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9cG-vH-7cE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1737" y="4"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ei0-rO-kgF">
             <objects>
