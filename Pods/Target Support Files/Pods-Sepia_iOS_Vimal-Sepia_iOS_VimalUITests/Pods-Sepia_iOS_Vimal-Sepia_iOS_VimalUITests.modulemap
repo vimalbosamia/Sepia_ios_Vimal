@@ -1,0 +1,6 @@
+framework module Pods_Sepia_iOS_Vimal_Sepia_iOS_VimalUITests {
+  umbrella header "Pods-Sepia_iOS_Vimal-Sepia_iOS_VimalUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
