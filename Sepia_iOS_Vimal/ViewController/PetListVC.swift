@@ -15,6 +15,7 @@ class PetListVC: UIViewController {
     private var pets = [Pet]()
     private var config : Welcome?
     private var response : String = ""
+    private let workDayArray = ["M","T","W","F"]
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -56,7 +57,9 @@ private func checkWorkingHours(workHours : String){
             print(response[Range(end, in: response)!])
             let startTime = String(response[Range(start, in: response)!])
             let endTime = String(response[Range(end, in: response)!])
-            if self.checkIfCurrentTimeIsBetween(startTime: startTime, endTime: endTime){
+            let numbers = response.components(separatedBy: ["-"," "])
+            let isAvailable = workDayArray.contains(where: { $0 == numbers[0] || $0 == numbers[1] })
+            if self.checkIfCurrentTimeIsBetween(startTime: startTime, endTime: endTime) && isAvailable{
                 self.displayData()
             } else {
                 self.alert()

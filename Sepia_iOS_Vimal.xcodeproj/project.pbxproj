@@ -32,6 +32,9 @@
 		943D16E92923A17100007F70 /* PetListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 943D16E72923A17100007F70 /* PetListTableViewCell.xib */; };
 		943D16EC2923BBF400007F70 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D16EB2923BBF400007F70 /* Extension.swift */; };
 		943D16EE2923BFD900007F70 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 943D16ED2923BFD900007F70 /* config.json */; };
+		943D16F22923E19400007F70 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB1F2922E7F600CBB087 /* PetModel.swift */; };
+		943D16F32923E1A300007F70 /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB2F2922ED0900CBB087 /* PetListViewModel.swift */; };
+		943D16F42923E1AF00007F70 /* PetListUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB2C2922EBA900CBB087 /* PetListUseCases.swift */; };
 		C784A55D5BFAB4F4086C4A20 /* Pods_Sepia_iOS_VimalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B337D07990CFFBA769C4A877 /* Pods_Sepia_iOS_VimalTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -536,6 +539,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943D16F42923E1AF00007F70 /* PetListUseCases.swift in Sources */,
+				943D16F32923E1A300007F70 /* PetListViewModel.swift in Sources */,
+				943D16F22923E19400007F70 /* PetModel.swift in Sources */,
 				9426EB2A2922EA5700CBB087 /* PetListRepository.swift in Sources */,
 				9426EB012922D8C700CBB087 /* Sepia_iOS_VimalTests.swift in Sources */,
 				9426EB272922EA1E00CBB087 /* DefaultPetListRepository.swift in Sources */,

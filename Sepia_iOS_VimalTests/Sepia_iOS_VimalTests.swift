@@ -10,14 +10,21 @@ import XCTest
 
 final class Sepia_iOS_VimalTests: XCTestCase {
 
+    var sut: PetListViewModel?
+    var useCase = petListUseCases()
     override func setUpWithError() throws {
+        sut = PetListViewModel(useCases:useCase)
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
     override func tearDownWithError() throws {
+        sut = nil
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func testLoadPlist() {
+        sut?.petListUseCase.getPetListData()
+    }
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
