@@ -9,31 +9,22 @@ import Foundation
 
 class DefaultPetListRepository : PetListRepository{
     func getPetList() -> PetModel {
-        let jsonData = readLocalJSONFile(forName: "pets_list")!
-        return parse(jsonData: jsonData)!
+        return readJSONFromFile(fileName: "pets_list", type: PetModel.self)!
     }
 }
 
 extension DefaultPetListRepository{
-    func readLocalJSONFile(forName name: String) -> Data? {
-        do {
-            if let filePath = Bundle.main.path(forResource: name, ofType: "json") {
-                let fileUrl = URL(fileURLWithPath: filePath)
-                let data = try Data(contentsOf: fileUrl)
-                return data
+    
+    func readJSONFromFile<T: Decodable>(fileName: String, type: T.Type) -> T? {
+        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let jsonData = try decoder.decode(T.self, from: data)
+                return jsonData
+            } catch {
+                print("error:\(error)")
             }
-        } catch {
-            print("error: \(error)")
-        }
-        return nil
-    }
-
-    func parse(jsonData: Data) -> PetModel? {
-        do {
-            let decodedData = try JSONDecoder().decode(PetModel.self, from: jsonData)
-            return decodedData
-        } catch {
-            print("error: \(error)")
         }
         return nil
     }

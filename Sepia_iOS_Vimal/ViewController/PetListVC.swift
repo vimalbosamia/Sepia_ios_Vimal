@@ -13,14 +13,15 @@ class PetListVC: UIViewController {
     
     private var viewModel : PetListViewModelDelegate?
     private var pets = [Pet]()
-    
+    private var config : Welcome?
+    private var response : String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        let viewModel = self.viewModel ?? PetListViewModel()
-        self.viewModel = viewModel
-        registerXib()
-        self.bindViewModel()
-        // Do any additional setup after loading the view.
+       
+        let repo = DefaultPetListRepository()
+        self.config = repo.readJSONFromFile(fileName: "config", type: Welcome.self)!
+        response = (config?.settings.workHours)!
+        self.checkWorkingHours(workHours: response)
     }
 
     private func registerXib() {
@@ -35,6 +36,53 @@ class PetListVC: UIViewController {
         })
         print(self.pets)
         self.petTblView.reloadData()
+    }
+    
+    private func displayData(){
+        let viewModel = self.viewModel ?? PetListViewModel()
+        self.viewModel = viewModel
+        registerXib()
+        self.bindViewModel()
+    }
+    
+private func checkWorkingHours(workHours : String){
+        let response = workHours
+        let pattern = "^[A-Z]-[A-Z]\\s{1}(\\d{1,2}:\\d{2})\\s{1}-\\s{1}(\\d{1,2}:\\d{2})$"
+        let regex = try! NSRegularExpression(pattern: pattern)
+        if let match = regex.matches(in: response, range: .init(response.startIndex..., in: response)).first,match.numberOfRanges == 3 {
+            let start = match.range(at: 1)
+            print(response[Range(start, in: response)!])
+            let end = match.range(at: 2)
+            print(response[Range(end, in: response)!])
+            let startTime = String(response[Range(start, in: response)!])
+            let endTime = String(response[Range(end, in: response)!])
+            if self.checkIfCurrentTimeIsBetween(startTime: startTime, endTime: endTime){
+                self.displayData()
+            } else {
+                self.alert()
+            }
+        }
+    }
+    
+    private func alert(){
+        presentAlertWithTitle(title: "Test", message: "Your working hours is over please try later", options: "Retry") { (option) in
+            print("option: \(option)")
+            switch(option) {
+                case 0:
+                    self.checkWorkingHours(workHours: self.response)
+                    break
+                default:
+                    break
+            }
+        }
+    }
+    
+    func checkIfCurrentTimeIsBetween(startTime: String, endTime: String) -> Bool {
+        guard let start = Formatter.today.date(from: startTime),
+              let end = Formatter.today.date(from: endTime) else {
+            return false
+        }
+        return DateInterval(start: start, end: end).contains(Date())
     }
 }
 extension PetListVC: UITableViewDelegate, UITableViewDataSource {
@@ -55,4 +103,15 @@ extension PetListVC: UITableViewDelegate, UITableViewDataSource {
         vc?.list = self.pets[indexPath.row]
         self.navigationController?.pushViewController(vc!, animated: true)
     }
+}
+
+extension Formatter {
+    static let today: DateFormatter = {
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = .init(identifier: "en_US_POSIX")
+        dateFormatter.defaultDate = Calendar.current.startOfDay(for: Date())
+        dateFormatter.dateFormat = "HH:mm"
+        return dateFormatter
+        
+    }()
 }
