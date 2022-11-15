@@ -30,6 +30,8 @@
 		9426EB342922EFBE00CBB087 /* PetDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426EB332922EFBE00CBB087 /* PetDetailVC.swift */; };
 		943D16E82923A17100007F70 /* PetListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D16E62923A17100007F70 /* PetListTableViewCell.swift */; };
 		943D16E92923A17100007F70 /* PetListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 943D16E72923A17100007F70 /* PetListTableViewCell.xib */; };
+		943D16EC2923BBF400007F70 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D16EB2923BBF400007F70 /* Extension.swift */; };
+		943D16EE2923BFD900007F70 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 943D16ED2923BFD900007F70 /* config.json */; };
 		C784A55D5BFAB4F4086C4A20 /* Pods_Sepia_iOS_VimalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B337D07990CFFBA769C4A877 /* Pods_Sepia_iOS_VimalTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +80,8 @@
 		9426EB332922EFBE00CBB087 /* PetDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailVC.swift; sourceTree = "<group>"; };
 		943D16E62923A17100007F70 /* PetListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListTableViewCell.swift; sourceTree = "<group>"; };
 		943D16E72923A17100007F70 /* PetListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetListTableViewCell.xib; sourceTree = "<group>"; };
+		943D16EB2923BBF400007F70 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		943D16ED2923BFD900007F70 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		B337D07990CFFBA769C4A877 /* Pods_Sepia_iOS_VimalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sepia_iOS_VimalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8A7ACEBBF9D68E36F26AFF /* Pods_Sepia_iOS_Vimal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sepia_iOS_Vimal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C6798E5A04AE9822378BF1 /* Pods-Sepia_iOS_Vimal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sepia_iOS_Vimal.debug.xcconfig"; path = "Target Support Files/Pods-Sepia_iOS_Vimal/Pods-Sepia_iOS_Vimal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 		9426EAE82922D8C300CBB087 /* Sepia_iOS_Vimal */ = {
 			isa = PBXGroup;
 			children = (
+				943D16EA2923BBE200007F70 /* Extension */,
 				9426EB2E2922ECEB00CBB087 /* ViewModel */,
 				9426EB2B2922EB4A00CBB087 /* UseCases */,
 				9426EB242922E9E000CBB087 /* Repository */,
@@ -209,6 +214,7 @@
 		9426EB1C2922E7BD00CBB087 /* JSONFile */ = {
 			isa = PBXGroup;
 			children = (
+				943D16ED2923BFD900007F70 /* config.json */,
 				9426EB212922E9A100CBB087 /* pets_list.json */,
 			);
 			path = JSONFile;
@@ -246,6 +252,14 @@
 				943D16E72923A17100007F70 /* PetListTableViewCell.xib */,
 			);
 			path = Xib;
+			sourceTree = "<group>";
+		};
+		943D16EA2923BBE200007F70 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				943D16EB2923BBF400007F70 /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		CF21BDC0D4C0F4DFA94FCCC5 /* Pods */ = {
@@ -375,6 +389,7 @@
 				9426EB222922E9A200CBB087 /* pets_list.json in Resources */,
 				9426EAF32922D8C600CBB087 /* Assets.xcassets in Resources */,
 				9426EAF12922D8C300CBB087 /* Main.storyboard in Resources */,
+				943D16EE2923BFD900007F70 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +522,7 @@
 				9426EB302922ED0900CBB087 /* PetListViewModel.swift in Sources */,
 				9426EAEA2922D8C300CBB087 /* AppDelegate.swift in Sources */,
 				943D16E82923A17100007F70 /* PetListTableViewCell.swift in Sources */,
+				943D16EC2923BBF400007F70 /* Extension.swift in Sources */,
 				9426EB292922EA5700CBB087 /* PetListRepository.swift in Sources */,
 				9426EAEC2922D8C300CBB087 /* SceneDelegate.swift in Sources */,
 				9426EB202922E7F600CBB087 /* PetModel.swift in Sources */,

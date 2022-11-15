@@ -42,3 +42,39 @@ struct Pet : Codable {
         title = try values.decodeIfPresent(String.self, forKey: .title)
     }
 }
+
+
+struct Welcome: Codable {
+    let settings: Settings
+}
+
+// MARK: - Settings
+struct Settings: Codable {
+    let workHours: String
+}
+
+//struct RootClass : Codable {
+//
+//    let settings : Setting?
+//
+//    enum CodingKeys: String, CodingKey {
+//        case settings
+//    }
+//    init(from decoder: Decoder) throws {
+//        _ = try decoder.container(keyedBy: CodingKeys.self)
+//        settings = try Setting(from: decoder)
+//    }
+//}
+//
+//struct Setting : Codable {
+//
+//    let workHours : String?
+//
+//    enum CodingKeys: String, CodingKey {
+//        case workHours = "workHours"
+//    }
+//    init(from decoder: Decoder) throws {
+//        let values = try decoder.container(keyedBy: CodingKeys.self)
+//        workHours = try values.decodeIfPresent(String.self, forKey: .workHours)
+//    }
+//}
