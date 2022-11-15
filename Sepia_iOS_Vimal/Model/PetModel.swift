@@ -9,7 +9,7 @@ import Foundation
 
 struct PetModel : Codable {
 
-    let pets : [Pet]?
+    var pets : [Pet]?
 
     enum CodingKeys: String, CodingKey {
         case pets = "pets"

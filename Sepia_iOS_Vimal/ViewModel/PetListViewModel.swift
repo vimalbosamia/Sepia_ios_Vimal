@@ -17,7 +17,7 @@ class PetListViewModel {
         self.petListUseCase = useCases ?? petListUseCases()
     }
    
-    private let petListUseCase: PetListUseCases
+    let petListUseCase: PetListUseCases
 }
 
 extension PetListViewModel : PetListViewModelDelegate{
