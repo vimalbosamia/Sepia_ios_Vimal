@@ -49,4 +49,10 @@ extension PetListVC: UITableViewDelegate, UITableViewDataSource {
         cell?.setupView(model: self.pets[indexPath.row])
         return cell!
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.petTblView.deselectRow(at: indexPath, animated: true)
+        let vc = storyboard?.instantiateViewController(withIdentifier: "PetDetailVC") as? PetDetailVC
+        vc?.list = self.pets[indexPath.row]
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
 }
